@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.rectangle.RectangleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-06-01T07:35:51" hostname="gurushifu-gurushifugitp-0pe58vtwwsv" time="0.019">
+<testsuite name="com.thoughtworks.rectangle.RectangleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-06-01T18:35:46" hostname="gurushifu-gurushifugitp-0pe58vtwwsv" time="0.023">
   <properties/>
-  <testcase name="testAreaForNegativeLength()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.013"/>
-  <testcase name="testAreaForNegativeBreadth()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
-  <testcase name="testAreaForPositiveNumbers()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
-  <testcase name="testAreaForNegativeDimensions()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <testcase name="shouldNotReturnAreaWhenBothLengthAndBreadthAreNegative()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.015"/>
+  <testcase name="shouldNotReturnAreaWhenBreadthIsNegative()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <testcase name="shouldNotReturnAreaWhenLengthIsNegative()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <testcase name="shouldReturnAreaWhenBothLengthAndBreadthArePositive()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

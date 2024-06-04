@@ -1,7 +1,11 @@
 package com.thoughtworks.rectangle;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
 
 import org.junit.jupiter.api.Test;
 
@@ -9,9 +13,9 @@ import org.junit.jupiter.api.Test;
 public class RectangleTest {
     
     @Test
-    void shouldReturnAreaWhenBothLengthAndBreadthArePositive(){
-        Rectangle rectangle = new Rectangle(5,4);
-        assertEquals(20,rectangle.calculateArea());
+    void shouldReturnAreaWhenBothLengthAndBreadthArePositive() {
+        Rectangle rectangle = new Rectangle(5, 4);
+        assertThat(rectangle.calculateArea(), is(equalTo(20)));
     }
 
     @Test

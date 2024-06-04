@@ -10,7 +10,7 @@ public class Rectangle{
         this.breadth = breadth;
      }
      
-    public long calculateArea(){
+    public int calculateArea(){
         if(length<0)
         throw new IllegalArgumentException(("Length must be non-negative"));
         if(breadth<0)
@@ -19,8 +19,7 @@ public class Rectangle{
         throw new IllegalArgumentException(("Both dimensions must be non-negative"));
 
 
-        long area=length*breadth;
-        return area;
+        return length*breadth;
     }
 
 }
